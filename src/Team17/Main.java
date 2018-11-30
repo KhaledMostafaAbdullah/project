@@ -86,8 +86,10 @@ public class Main {
 				//please try not to exceed two when calling your class
 				break;
 			case 8:
-				// count prime
-				//please try not to exceed two when calling your class
+			{
+				CountPrimes obj=new CountPrimes();
+				System.out.println("Number of Primes are:"+obj.Count_Primes(int_arr));
+			}
 				break;
 			case 9:
 				//Reverse array
