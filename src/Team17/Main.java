@@ -1,5 +1,6 @@
 package Team17;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -54,6 +55,7 @@ public class Main {
 
 
 	private static void switch_runner(int choice,int [] int_arr,char [] char_arr) {
+
 		switch (choice)   //Add your functions
 		{
 			case 1:
@@ -130,8 +132,8 @@ public class Main {
 				//please try not to exceed two when calling your class
 				break;
 			case 17:
-				//Zero if less than zero
-				//please try not to exceed two when calling your class
+				System.out.println("The Input array to change negative integers to zero : " + Arrays.toString(int_arr));
+				System.out.println("The output array of the prev input : " + Arrays.toString(new NegativeToZero().negativetozero(int_arr)));
 				break;
 			default:
 				System.out.println("Invalid input!");
