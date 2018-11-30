@@ -43,7 +43,6 @@ public class Main {
 					switch_runner(i);
 				}
 			} else {
-				System.out.println("hekko");
 				switch_runner(choice);
 			}
 			print_messages();
