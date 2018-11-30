@@ -82,8 +82,13 @@ public class Main {
 				//please try not to exceed two when calling your class
 				break;
 			case 7:
-				//Check sorted
-				//please try not to exceed two when calling your class
+				Checksorted ob7 = new Checksorted();
+				boolean checked = ob7.checksorted(int_arr);
+				if (checked) {
+					System.out.println("your Array sorted");
+				} else {
+					System.out.println("your Array not sorted");
+				}
 				break;
 			case 8:
 			{
