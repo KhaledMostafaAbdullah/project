@@ -118,8 +118,10 @@ public class Main {
 				//please try not to exceed two when calling your class
 				break;
 			case 14:
-				//Get average
-				//please try not to exceed two when calling your class
+				{
+				GetAvg avg =new GetAvg();
+                                avg.Get_average(int_arr);
+                                }
 				break;
 			case 15:
 				//Get median
