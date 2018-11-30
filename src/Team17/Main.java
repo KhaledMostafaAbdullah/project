@@ -30,8 +30,8 @@ public class Main {
 		}
 
 		System.out.println("Please Fill Characters Array"); //filling the char array
-		for (int i = 0; i < char_arr.length; ++i)
-			char_arr[i] = input.next().charAt(0);
+		String s=input.nextLine();s=input.nextLine();
+		char_arr=s.toCharArray(); 
 
 
 		print_messages();
