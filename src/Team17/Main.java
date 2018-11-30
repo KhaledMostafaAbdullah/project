@@ -57,8 +57,8 @@ public class Main {
 		switch (choice)   //Add your functions
 		{
 			case 1:
-				//Most repeated value
-				//please try not to exceed two when calling your class
+				MostRepeated m=new MostRepeated();
+			        m. most_repeated( int_arr, int_arr.length);
 				break;
 			case 2:
 				//Sort
