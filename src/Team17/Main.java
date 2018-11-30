@@ -70,7 +70,7 @@ public class Main {
 				break;
 			case 4:
 				//Find the largest prime
-				//please try not to exceed two when calling your class
+				System.out.println("Largest Prime is "+LargestPrime.largestPrime(int_arr));
 				break;
 			case 5:
 				//Find the smallest prime
