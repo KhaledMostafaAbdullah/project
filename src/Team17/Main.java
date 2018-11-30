@@ -65,8 +65,8 @@ public class Main {
 				//please try not to exceed two when calling your class
 				break;
 			case 3:
-				//Shuffle
-				//please try not to exceed two when calling your class
+				ShuffleCLASS Obj=new ShuffleCLASS();
+				Obj.shuffleArray (int_arr,char_arr);
 				break;
 			case 4:
 				//Find the largest prime
