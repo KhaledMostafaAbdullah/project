@@ -12,7 +12,7 @@ public class LargestPrime {
 					break;
 				}
 			}
-			if(isPrime && arr[i]>largest_prime) {
+			if(isPrime && arr[i]>largest_prime&&arr[i]!=0&&arr[i]!=1) {
 				largest_prime=arr[i];
 			}
 		}

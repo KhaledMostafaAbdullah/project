@@ -59,8 +59,8 @@ public class Main {
 		switch (choice)   //Add your functions
 		{
 			case 1:
-				//Most repeated value
-				//please try not to exceed two when calling your class
+				MostRepeated m=new MostRepeated();
+			        m. most_repeated( int_arr, int_arr.length);
 				break;
 			case 2:
 				//Sort
@@ -120,8 +120,10 @@ public class Main {
 				//please try not to exceed two when calling your class
 				break;
 			case 14:
-				//Get average
-				//please try not to exceed two when calling your class
+				{
+				GetAvg avg =new GetAvg();
+                                avg.Get_average(int_arr);
+                                }
 				break;
 			case 15:
 				//Get median
