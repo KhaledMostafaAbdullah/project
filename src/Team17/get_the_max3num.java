@@ -1,4 +1,5 @@
 package Team17;
+import java.util.Arrays;
 public static class get_the_max3num{
        public static void max_3_num(int arr[]) {
         int []temp_arr = new int [arr.length];
@@ -9,4 +10,4 @@ public static class get_the_max3num{
         }
         System.out.println("");
         }
-    }
+ }
