@@ -22,7 +22,7 @@ public class Main {
 		input = new Scanner(System.in);
 		int size = input.nextInt();// this wil be used for both integers and chars array
 
-		int[] int_arr = new int[size]; char[] char_arr = new char[size]; //declaration of both int and char array
+		 int[] int_arr = new int[size]; char[] char_arr = new char[size]; //declaration of both int and char array
 
 		System.out.println("Fill the array of Type INTEGERS:"); //filling the int array
 		for (int i = 0; i < int_arr.length; ++i) {
@@ -30,8 +30,8 @@ public class Main {
 		}
 
 		System.out.println("Please Fill Characters Array"); //filling the char array
-		for (int i = 0; i < char_arr.length; ++i)
-			char_arr[i] = input.next().charAt(0);
+		String s=input.nextLine();s=input.nextLine();
+		char_arr=s.toCharArray(); 
 
 
 		print_messages();
@@ -40,11 +40,12 @@ public class Main {
 		while (choice > 0) {
 			if (choice == 18) {//this will loop on all functions from 1 to 17
 				for (int i = 1; i < 18; i++) {
-					switch_runner(i);
+					switch_runner(i,int_arr,char_arr);
 				}
 			} else {
-				switch_runner(choice);
+				switch_runner(choice,int_arr,char_arr);
 			}
+
 			print_messages();
 			choice = input.nextInt();
 		}
@@ -52,7 +53,7 @@ public class Main {
 	}
 
 
-	private static void switch_runner(int choice) {
+	private static void switch_runner(int choice,int [] int_arr,char [] char_arr) {
 		switch (choice)   //Add your functions
 		{
 			case 1:
