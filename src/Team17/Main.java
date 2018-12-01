@@ -128,10 +128,8 @@ public class Main {
                                 }
 				break;
 			case 15:
-				//Get median
 				getMedian x=new getMedian();
 				x.getMedian(int_arr);
-				//please try not to exceed two when calling your class
 				break;
 			case 16:
 				//Return only primes
