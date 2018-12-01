@@ -114,6 +114,8 @@ public class Main {
 			case 12:
 				//Get the maximum 3 numbers
 				//please try not to exceed two when calling your class
+				get_the_max3num new_obj = new get_the_max3num();
+				new_obj.max_3_num(int_arr);
 				break;
 			case 13:
 				//Get the minimum 3 numbers
